@@ -2,9 +2,11 @@ import './Slam.css'
 function Slam(){
     return(
         <div>
-            
+           
             <div>
+    
                 <form class="form">
+                    <h1>SLAM BOOK</h1>
                     <label>Name:</label>
                     <input class="nm" type="text" placeholder="Enter your name"></input>
                     <label for ="phone">Number:</label>

@@ -4,6 +4,11 @@
     box-sizing: border-box;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+h1{
+    color:black;
+    text-align: center;
+    font-size: large;
+}
 
 body{
     background: url(slam.jpg) no-repeat center center/cover;
@@ -17,13 +22,15 @@ label{
     height:700px;
     width:600px;
     border-radius: 20px;
-    border:1px solid black;
+    border:1px solid rgb(244, 236, 236);
     margin:auto;
-    margin-top:40px;
+    margin-top:30px;
     opacity:0.7;
     padding-top:20px;
     padding-left: 20px;
     background-color: gray;
+    border:2px solid;
+    border-left:4px dotted;
 }
 .add{
     
@@ -33,6 +40,7 @@ label{
     padding-right: 20px;
     margin: 10px 20px;
     color:gray;
+    border-radius: 20px;
 }
 .name,.nm{
     padding-left: 10px;
@@ -41,11 +49,13 @@ label{
     padding-right: 20px;
     margin: 10px 20px;
     color:gray;
+    border-radius: 20px;
 }
 .frnd,.date{
     margin-left:10px;
     margin-bottom:20px;
     color:gray;
+    border-radius: 20px;
 }
 .act{
     margin-top:5px;
@@ -62,6 +72,7 @@ label{
     color:white;
     background-color: rgb(230, 27, 27);
     font-weight: bolder;
+    border-radius: 20px;
 }
 
 
